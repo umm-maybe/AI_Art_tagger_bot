@@ -1,4 +1,4 @@
-nudenet
+requests
 praw
 sqlite3
 urllib3

@@ -6,6 +6,6 @@ REMOVAL_MESSAGE = '' #enter message to be sent to submission if removed
 
 MOD_TEST = False #Set to True to disable tagging and removing, instead sends mod mail when post detected as NSFW. USED FOR TESTING
 
-NSFW_PROB_THRESHOLD = 0.8 #Change if needed. A lower threshold is more lenient with what counts as NSFW.
+AI_PROB_THRESHOLD = 0.8 #Change if needed. A lower threshold is more lenient with what counts as NSFW.
 
 LOGGING_ON = True #Set to True to log flagged post details into database
