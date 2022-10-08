@@ -1,16 +1,18 @@
-# NSFW tagger bot for image submissions to automate moderation
+# AI tagger bot for image submissions to automate moderation
 
-This bot uses a neural net to flair/remove new image submissions to subreddits as NSFW or not to automate moderation.
+This bot uses a neural net to flair/remove new image submissions to subreddits as AI-generated or not to automate moderation.
 
 ## Installation
 
-Clone repo with `git clone https://github.com/dwalone/NSFWtagger_bot.git`
+Clone repo with `git clone https://github.com/umm-maybe/AI_Art_tagger_bot.git`
 
 Install dependencies with `pip install -r requirements.txt`
 
-(You may have to also run `pip install --upgrade nudenet` to install further dependencies)
-
 ### Usage
+
+If you don't have one, you will need a Huggingface account, which is free and can be obtained here: https://huggingface.co/join
+
+Once you have your account, go to https://huggingface.co/settings/tokens to generate a READ token for use with this bot.
 
 Create new Reddit user and make it a moderator of your subreddit(s), or use an existing moderator user.
 
@@ -20,4 +22,4 @@ Enter the Authentication info `client id, client secret, username, password` int
 
 Edit configuration options in `config.py`
 
-Run `classify_nsfw_SubredditStream.py` to start streaming and moderating image submissions from your subreddit(s)!
+Run `classify_AI_SubredditStream.py` to start streaming and moderating image submissions from your subreddit(s)!
