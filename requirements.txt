@@ -1,4 +1,6 @@
 requests
 praw
-sqlite3
+pysqlite3
 urllib3
+transformers
+pillow

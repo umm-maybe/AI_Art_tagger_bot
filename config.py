@@ -1,11 +1,11 @@
-SUBREDDIT_NAMES = '' #enter comma separated subreddit names here (without the r/) e.g. 'pics' or 'pics,hmm,askreddit'
+SUBREDDIT_NAMES = '' #enter comma separated subreddit names here (without the r/) e.g. 'art' or 'art,artificial,artistlounge'
 
-REMOVE_SUBMISSION = True #Set to True or False if you want an NSFW tagged post removed or not
+REMOVE_SUBMISSION = False #Set to True or False if you want an AI tagged post removed or not
 
 REMOVAL_MESSAGE = '' #enter message to be sent to submission if removed
 
-MOD_TEST = False #Set to True to disable tagging and removing, instead sends mod mail when post detected as NSFW. USED FOR TESTING
+MOD_TEST = False #Set to True to disable tagging and removing, instead sends mod mail when post detected as AI-generated. USED FOR TESTING
 
-AI_PROB_THRESHOLD = 0.8 #Change if needed. A lower threshold is more lenient with what counts as NSFW.
+AI_PROB_THRESHOLD = 0.9 #Change if needed. A lower threshold will identify more images as AI-generated.
 
 LOGGING_ON = True #Set to True to log flagged post details into database
