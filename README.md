@@ -10,13 +10,9 @@ Install dependencies with `pip install -r requirements.txt`
 
 ### Usage
 
-If you don't have one, you will need a Huggingface account, which is free and can be obtained here: https://huggingface.co/join
+Create new Reddit user and create an app for the user (https://www.reddit.com/prefs/apps/).
 
-Once you have your account, go to https://huggingface.co/settings/tokens to generate a READ token for use with this bot.
-
-Create new Reddit user and make it a moderator of your subreddit(s), or use an existing moderator user.
-
-Create an app for the user (https://www.reddit.com/prefs/apps/)
+Optionally, make it a moderator of your subreddit(s), or use an existing moderator user.
 
 Enter the Authentication info `client id, client secret, username, password` into `keys.py`
 
